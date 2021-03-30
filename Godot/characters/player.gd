@@ -6,6 +6,7 @@ var input_dir: Vector3 = Vector3()
 var calibrated_zero: Vector2 = Vector2()
 export var max_calibration: float = 6
 export var speed: int = 150
+export var init_pos: Vector2 = Vector2(260, 800)
 
 
 func _ready():
@@ -47,7 +48,7 @@ func calibrate(initial = false, y_only = true, x_only = false):
 	
 
 func reset_position():
-	position = Vector2(540, 960)
+	position = init_pos
 
 
 func _on_CalibrateYButton_pressed():
