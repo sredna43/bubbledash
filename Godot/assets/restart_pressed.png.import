@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/calibrate_y_pressed.png-3e5bfec3340a39bd9cb026f6ee7d1e0b.stex"
+path="res://.import/restart_pressed.png-b073d0f7f2dc44de4f7a75dedcdc4631.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/calibrate_y_pressed.png"
-dest_files=[ "res://.import/calibrate_y_pressed.png-3e5bfec3340a39bd9cb026f6ee7d1e0b.stex" ]
+source_file="res://assets/restart_pressed.png"
+dest_files=[ "res://.import/restart_pressed.png-b073d0f7f2dc44de4f7a75dedcdc4631.stex" ]
 
 [params]
 

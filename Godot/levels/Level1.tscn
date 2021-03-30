@@ -4,16 +4,8 @@
 
 [node name="Level1" type="Node2D"]
 
-[node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 1080.0
-margin_bottom = 1920.0
-color = Color( 0.223529, 0.215686, 0.290196, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1250.21, 1040.15 )
+position = Vector2( 271.552, 686.637 )
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 offset = Vector2( 0, -50 )
@@ -22,7 +14,14 @@ drag_margin_h_enabled = true
 drag_margin_v_enabled = true
 smoothing_enabled = true
 offset_v = -1.0
-drag_margin_left = 0.33
+drag_margin_left = 0.25
 drag_margin_top = 0.17
-drag_margin_right = 0.33
-drag_margin_bottom = 0.33
+drag_margin_right = 0.25
+drag_margin_bottom = 0.17
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

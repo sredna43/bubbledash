@@ -1,17 +1,19 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://sprites/player.png" type="Texture" id=1]
+[ext_resource path="res://assets/player.png" type="Texture" id=1]
 [ext_resource path="res://characters/player.gd" type="Script" id=2]
-[ext_resource path="res://sprites/restart.png" type="Texture" id=3]
-[ext_resource path="res://sprites/restart_pressed.png" type="Texture" id=4]
-[ext_resource path="res://sprites/calibrate_y_pressed.png" type="Texture" id=5]
-[ext_resource path="res://sprites/calibrate_y.png" type="Texture" id=6]
+[ext_resource path="res://assets/restart.png" type="Texture" id=3]
+[ext_resource path="res://assets/restart_pressed.png" type="Texture" id=4]
+[ext_resource path="res://assets/calibrate_y_pressed.png" type="Texture" id=5]
+[ext_resource path="res://assets/calibrate_y.png" type="Texture" id=6]
+
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 13.2352
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 579.226, 1280.01 )
+position = Vector2( 271.895, 558.645 )
+scale = Vector2( 0.439999, 0.439999 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -64,12 +66,14 @@ __meta__ = {
 }
 
 [node name="RestartButton" type="TouchScreenButton" parent="CanvasLayer"]
-position = Vector2( 76.1093, 1733.07 )
+position = Vector2( 23.7842, 880.012 )
+scale = Vector2( 0.399999, 0.399999 )
 normal = ExtResource( 3 )
 pressed = ExtResource( 4 )
 
 [node name="CalibrateYButton" type="TouchScreenButton" parent="CanvasLayer"]
-position = Vector2( 737.309, 1733.07 )
+position = Vector2( 391.646, 867.327 )
+scale = Vector2( 0.399999, 0.399999 )
 normal = ExtResource( 6 )
 pressed = ExtResource( 5 )
 [connection signal="pressed" from="CanvasLayer/RestartButton" to="." method="_on_RestartButton_pressed"]

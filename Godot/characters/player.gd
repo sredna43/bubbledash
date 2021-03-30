@@ -5,7 +5,7 @@ var direction: Vector2 = Vector2()
 var input_dir: Vector3 = Vector3()
 var calibrated_zero: Vector2 = Vector2()
 export var max_calibration: float = 6
-export var speed: int = 250
+export var speed: int = 150
 
 
 func _ready():

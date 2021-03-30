@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/calibrate.png-19cfe29cdd30c80adee2b72805c3bc8d.stex"
+path="res://.import/calibrate_pressed.png-ffd5326016d4d91762e3cebb952b9e7e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/calibrate.png"
-dest_files=[ "res://.import/calibrate.png-19cfe29cdd30c80adee2b72805c3bc8d.stex" ]
+source_file="res://assets/calibrate_pressed.png"
+dest_files=[ "res://.import/calibrate_pressed.png-ffd5326016d4d91762e3cebb952b9e7e.stex" ]
 
 [params]
 
